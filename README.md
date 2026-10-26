@@ -16,19 +16,5 @@
 *   **Khối vi điều khiển:** Kit ESP32 CP2102 30 Pin (tích hợp Wi-Fi).
 *   
 ## Hướng dẫn cài đặt
-1.  **Clone repository về máy tính:**
-    ```bash
-    git clone [https://github.com/TriNgz-sketch/Esp32_Mobile.git](https://github.com/TriNgz-sketch/Esp32_Mobile.git)
-    cd Esp32_Mobile
-    ```
-2.  **Cài đặt các gói thư viện cần thiết:**
-    ```bash
-    npm install
-    ```
-3.  **Cấu hình kết nối Firebase:**
-    Cập nhật thông tin `firebaseConfig` (API Key, Database URL, v.v.) vào mã nguồn để ứng dụng có thể kết nối với cơ sở dữ liệu.
-4.  **Khởi chạy ứng dụng:**
-    ```bash
-    npx expo start
-    ```
-    *Quét mã QR bằng ứng dụng Expo Go trên điện thoại để trải nghiệm.*
+1.  **(Trên máy tính) Tải folder AppProject về máy ,Mở Terminal(chế độ Admin) ,tải Node.js, cấp quyền ,update Expo lên SDK57 theo app,cd tới đường dẫn smart-farm trong folder,gõ lệnh "npm install" để tải thư viện và gõ lệnh"npx expo start" để khởi động ,nó sẽ hiện mã Qr và link URL**
+2.  **(Trên điện thoại) Tải ứng dụng Expo Go trên Chplay hoặc IOS ,sau đó quét mã trên terminal để vào app,đăng ký tài khoản và có thể sử dụng**
